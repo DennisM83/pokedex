@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# REACT: POKEDEX CARDS
+
+This project is a part of the React Bootcamp by Colt Steele.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
