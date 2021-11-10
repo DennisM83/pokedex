@@ -12,8 +12,8 @@ export default function Pokedex() {
     { id: 133, name: "Eevee", type: "normal", base_experience: 65 },
   ];
   return (
-    <div>
-      <Pokecard dex={dex} />
-    </div>
+    dex.map(item => {
+       return <Pokecard name={item.name} id={item.id}/>
+    })
   );
 }
