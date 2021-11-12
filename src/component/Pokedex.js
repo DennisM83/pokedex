@@ -13,7 +13,7 @@ export default function Pokedex() {
   ];
   return (
     dex.map(item => {
-       return <Pokecard name={item.name} id={item.id}/>
+       return <Pokecard name={item.name} id={item.id} type={item.type} base={item.base_experience}/>
     })
   );
 }
